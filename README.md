@@ -1,53 +1,81 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# 🌾 Web-Pertanian
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+Selamat datang di **Web-Pertanian**, platform digital inovatif yang dirancang khusus untuk mendukung petani, pengusaha pertanian, dan pecinta pertanian di Indonesia. Website ini menyediakan berbagai fitur untuk memudahkan akses informasi, transaksi, dan pengelolaan kegiatan pertanian modern.
 
-## ✨ Technology Stack
+## ✨ Fitur Utama
 
-This scaffold provides a robust foundation built with:
+### 🏠 Dashboard Interaktif
+- **Monitoring Tanaman**: Pantau pertumbuhan tanaman secara real-time dengan data sensor dan analitik.
+- **Manajemen Lahan**: Kelola lahan pertanian Anda dengan mudah, termasuk pemetaan dan perencanaan tanam.
+- **Prediksi Panen**: Gunakan AI untuk memprediksi hasil panen berdasarkan data historis dan cuaca.
 
-### 🎯 Core Framework
-- **⚡ Next.js 16** - The React framework for production with App Router
-- **📘 TypeScript 5** - Type-safe JavaScript for better developer experience
-- **🎨 Tailwind CSS 4** - Utility-first CSS framework for rapid UI development
+### 🛒 Marketplace Pertanian
+- **Jual Beli Produk**: Platform untuk menjual hasil pertanian langsung ke konsumen atau pedagang.
+- **Katalog Produk**: Jelajahi berbagai produk pertanian segar, bibit, pupuk, dan alat pertanian.
+- **Sistem Pembayaran**: Transaksi aman dengan integrasi pembayaran digital.
 
-### 🧩 UI Components & Styling
-- **🧩 shadcn/ui** - High-quality, accessible components built on Radix UI
-- **🎯 Lucide React** - Beautiful & consistent icon library
-- **🌈 Framer Motion** - Production-ready motion library for React
-- **🎨 Next Themes** - Perfect dark mode in 2 lines of code
+### 📚 Edukasi dan Informasi
+- **Artikel dan Tutorial**: Baca artikel terbaru tentang teknik pertanian modern, tips budidaya, dan inovasi teknologi.
+- **Forum Komunitas**: Berinteraksi dengan petani lain, bertukar pengalaman dan pengetahuan.
+- **Webinar dan Workshop**: Ikuti acara online untuk meningkatkan keterampilan pertanian.
 
-### 📋 Forms & Validation
-- **🎣 React Hook Form** - Performant forms with easy validation
-- **✅ Zod** - TypeScript-first schema validation
+### 🔧 Layanan Tambahan
+- **Konsultasi Ahli**: Dapatkan nasihat dari ahli pertanian melalui chat atau video call.
+- **Layanan Logistik**: Pengiriman produk pertanian dengan jasa kurir terpercaya.
+- **Analitik Data**: Laporan dan analisis untuk membantu pengambilan keputusan bisnis.
 
-### 🔄 State Management & Data Fetching
-- **🐻 Zustand** - Simple, scalable state management
-- **🔄 TanStack Query** - Powerful data synchronization for React
-- **🌐 Fetch** - Promise-based HTTP request
+## 🛠️ Teknologi yang Digunakan
 
-### 🗄️ Database & Backend
-- **🗄️ Prisma** - Next-generation TypeScript ORM
-- **🔐 NextAuth.js** - Complete open-source authentication solution
+Website ini dibangun dengan teknologi terkini untuk memastikan performa tinggi dan pengalaman pengguna yang optimal:
 
-### 🎨 Advanced UI Features
-- **📊 TanStack Table** - Headless UI for building tables and datagrids
-- **🖱️ DND Kit** - Modern drag and drop toolkit for React
-- **📊 Recharts** - Redefined chart library built with React and D3
-- **🖼️ Sharp** - High performance image processing
+- **⚡ Next.js 16** - Framework React untuk aplikasi web modern
+- **📘 TypeScript** - Bahasa pemrograman dengan type safety
+- **🎨 Tailwind CSS** - Framework CSS untuk desain responsif
+- **🧩 shadcn/ui** - Komponen UI yang elegan dan aksesibel
+- **🗄️ Prisma** - ORM untuk manajemen database
+- **🔐 NextAuth.js** - Sistem autentikasi yang aman
+- **📊 TanStack Query** - Pengelolaan data dan caching
+- **🌐 WebSocket** - Komunikasi real-time untuk fitur interaktif
 
-### 🌍 Internationalization & Utilities
-- **🌍 Next Intl** - Internationalization library for Next.js
-- **📅 Date-fns** - Modern JavaScript date utility library
-- **🪝 ReactUse** - Collection of essential React hooks for modern development
+## 🚀 Cara Menjalankan
 
-## 🎯 Why This Scaffold?
+1. **Clone Repository**:
+   ```bash
+   git clone https://github.com/username/web-pertanian.git
+   cd web-pertanian
+   ```
 
-- **🏎️ Fast Development** - Pre-configured tooling and best practices
-- **🎨 Beautiful UI** - Complete shadcn/ui component library with advanced interactions
-- **🔒 Type Safety** - Full TypeScript configuration with Zod validation
-- **📱 Responsive** - Mobile-first design principles with smooth animations
-- **🗄️ Database Ready** - Prisma ORM configured for rapid backend development
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Setup Database**:
+   ```bash
+   npx prisma migrate dev
+   npx prisma generate
+   ```
+
+4. **Jalankan Aplikasi**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Buka Browser**: Kunjungi `http://localhost:3000`
+
+## 📞 Kontak dan Dukungan
+
+Untuk pertanyaan, saran, atau dukungan teknis, silakan hubungi tim kami melalui:
+- Email: support@webpertanian.com
+- Website: [www.webpertanian.com](https://www.webpertanian.com)
+
+## 🤝 Kontribusi
+
+Kami terbuka untuk kontribusi dari komunitas. Jika Anda ingin berkontribusi, silakan buat pull request atau laporkan issue di repository GitHub kami.
+
+---
+
+**Web-Pertanian** - Membawa pertanian ke era digital untuk masa depan yang lebih hijau dan berkelanjutan. 🌱
 - **🔐 Auth Included** - NextAuth.js for secure authentication flows
 - **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
 - **🌍 i18n Ready** - Multi-language support with Next Intl
